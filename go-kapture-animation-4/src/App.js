@@ -8,6 +8,7 @@ const App = () => {
   const divu = useRef([]);
 
   const n = 9;
+  const size = 100:
 
   const handleReload = () => {
     TweenMax.to(divuContainer, 0, { css: { position: "relative" } })
@@ -15,7 +16,7 @@ const App = () => {
   }
 
   const handleReload1 = (i) => {
-    TweenMax.to(divu.current[i], 3, { css: { top: `${Math.floor((i / Math.sqrt(n))) * 100}px`, right: `${(i % Math.sqrt(n)) * 100}px`, opacity: "1", transform: "rotateZ(0) scale(1)" } });
+    TweenMax.to(divu.current[i], 3, { css: { top: `${Math.floor((i / Math.sqrt(n))) * size}px`, right: `${(i % Math.sqrt(n)) * size}px`, opacity: "1", transform: "rotateZ(0) scale(1)" } });
     if (i < n) setTimeout(() => handleReload1(i + 1), 3000);
   };
 
@@ -47,7 +48,7 @@ const App = () => {
 
   return (
     <div style={{ display: "flex", justifyContent: "center", height: "100vh", alignItems: "center" }}>
-      <div style={{ width: `${Math.sqrt(n) * 100}px`, height: `${Math.sqrt(n) * 100}px` }} ref={e => divuContainer = e} >
+      <div style={{ width: `${Math.sqrt(n) * size}px`, height: `${Math.sqrt(n) * size}px` }} ref={e => divuContainer = e} >
         {result.map(i=><div style={{ position: "absolute", top: `${getRandomPair().top}vh`, right: `${getRandomPair().right}vw` }} className={`divu divu${i}`} ref={e => divu.current[i] = e} />)}
       </div>
     </div>
