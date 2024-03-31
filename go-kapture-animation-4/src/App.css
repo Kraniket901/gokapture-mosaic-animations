@@ -1,33 +1,6 @@
 .divu {
-  width: 100px;
-  height: 100px;
   opacity: 0;
+  border: 2px solid black;
   transform: rotateZ(90deg) scale(2);
-}
-.divu0 {
-  background-color: blue;
-}
-.divu1 {
-  background-color: pink;
-}
-.divu2 {
-  background-color: yellow;
-}
-.divu3 {
-  background-color: green;
-}
-.divu4 {
-  background-color: red;
-}
-.divu5 {
-  background-color:mediumaquamarine;
-}
-.divu6 {
-  background-color:darkorange;
-}
-.divu7 {
-  background-color:chartreuse;
-}
-.divu8 {
-  background-color:blanchedalmond;
+  /* background-color: blue; */
 }
