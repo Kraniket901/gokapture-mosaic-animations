@@ -8,7 +8,7 @@ const App = () => {
   const divu = useRef([]);
 
   const n = 9;
-  const size = 100:
+  const size = 100;
 
   const handleReload = () => {
     TweenMax.to(divuContainer, 0, { css: { position: "relative" } })
