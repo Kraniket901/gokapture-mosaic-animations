@@ -1,0 +1,69 @@
+.divu1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu4 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu5 {
+  width: 100px;
+  height: 100px;
+  background-color:mediumaquamarine;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu6 {
+  width: 100px;
+  height: 100px;
+  background-color:darkorange;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu7 {
+  width: 100px;
+  height: 100px;
+  background-color:chartreuse;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu8 {
+  width: 100px;
+  height: 100px;
+  background-color:blanchedalmond;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+.divu9 {
+  width: 100px;
+  height: 100px;
+  background-color:aquamarine;
+  opacity: 0;
+  transform: rotateZ(90deg) scale(2);
+}
+
+.divu-container {
+  /* background-color: purple; */
+  width: 300px;
+  height: 300px;
+}

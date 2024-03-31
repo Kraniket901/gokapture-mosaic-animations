@@ -1,0 +1,13 @@
+.divu1 {
+  /* width: 100px; */
+  height: 200px;
+  /* background-color: green; */
+  opacity: 0.7;
+  transform: rotateZ(90deg);
+}
+
+.divu-container {
+  /* background-color: blue; */
+  width: 200px;
+  height: 200px;
+}
